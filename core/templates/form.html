@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Tarefas</h1>
+        <form method="post">
+            {% csrf_token %}
+            <label for="{{ form.title.id_for_label }}">{{ form.title.label }}</label>
+            {{ form.title }}
+            <br>
+            <label for="{{ form.description.id_for_label }}">{{ form.description.label }}</label>
+            {{ form.description }}
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
