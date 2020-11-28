@@ -3,16 +3,19 @@
 Seguindo em meus estudos no framework Django, após assistir a live #146 do canal do
 Youtube
 [Live de Python](https://www.youtube.com/channel/UCAaKeg-BocRqphErdtIUFFw), 
-ministrada por Renan Moura, decidi criar um índice do vídeo.
+ministrada por Renan Moura, decidi criar um índice do vídeo para facilitar minhas
+consultas.
 
-O objetivo da live é dar uma ideia geral do funcionamento básico do framework 
-Django, desenvolvendo o exemplo de uma aplicação web de lista de tarefas.
+Lembrando que o objetivo da live foi dar uma ideia geral do funcionamento básico 
+do framework Django, desenvolvendo o exemplo de uma aplicação web de lista de 
+tarefas.
 
 ## 1. Configurações do projeto
 
 ### 1.1. Ambiente virtual
 
 - [Criando e ativando a venv](https://youtu.be/6a2ID5Ld6is?t=2723)
+- [Código](https://github.com/olucianonet/django101-saindo-do-zero/tree/1-1-ambiente-virtual)
 
 > _Versão do Python >= 3.8._
 
@@ -22,11 +25,13 @@ Django, desenvolvendo o exemplo de uma aplicação web de lista de tarefas.
 - [Instalando o Django](https://youtu.be/6a2ID5Ld6is?t=272)
 > _Versão do Django >= 3.1._
 - [Conhecendo o comando django-admin](https://youtu.be/6a2ID5Ld6is?t=347)
+- [Código](https://github.com/olucianonet/django101-saindo-do-zero/tree/1-2-instalacao-do-django)
 
 ### 1.3. Criando um projeto
 
 - [Criando o projeto](https://youtu.be/6a2ID5Ld6is?t=383)
 - [Conhecendo o comando ./manage](https://youtu.be/6a2ID5Ld6is?t=408)
+- [Código](https://github.com/olucianonet/django101-saindo-do-zero/tree/1-3-criando-um-projeto)
 
 ### 1.4. Criando uma app
 
@@ -35,11 +40,13 @@ Django, desenvolvendo o exemplo de uma aplicação web de lista de tarefas.
 - [Conhecendo o arquivo settings.py](https://youtu.be/6a2ID5Ld6is?t=594)
 - [Instalando a app core](https://youtu.be/6a2ID5Ld6is?t=610)
 - [Como é composto um projeto Django](https://youtu.be/6a2ID5Ld6is?t=680)
+- [Código](https://github.com/olucianonet/django101-saindo-do-zero/tree/1-4-criando-uma-app)
 
 ## 2. Iniciando o CRUD:
 
 - [Criando o arquivo urls.py da app core](https://youtu.be/6a2ID5Ld6is?t=737)
 - [Conhecendo o comando ./manage check](https://youtu.be/6a2ID5Ld6is?t=1070)
+- [Código](https://github.com/olucianonet/django101-saindo-do-zero/tree/2-0-iniciando-o-crud)
 
 ### 2.1. Criando a consulta (READ)
 
@@ -50,6 +57,7 @@ Django, desenvolvendo o exemplo de uma aplicação web de lista de tarefas.
 - [Criando e aplicando a primeira migração](https://youtu.be/6a2ID5Ld6is?t=1770)
 - [Recuperando os registros na view](https://youtu.be/6a2ID5Ld6is?t=1861)
 - [Resumo da arquitetura do projeto](https://youtu.be/6a2ID5Ld6is?t=1957)
+- [Código](https://github.com/olucianonet/django101-saindo-do-zero/tree/2-1-criando-a-consulta-read)
 
 ### 2.2. Criando o cadastro (CREATE)
 
@@ -64,17 +72,20 @@ Django, desenvolvendo o exemplo de uma aplicação web de lista de tarefas.
 - [Criando o arquivo detail.html](https://youtu.be/6a2ID5Ld6is?t=3576)
 - [Conhecendo o comando ./manage shell](https://youtu.be/6a2ID5Ld6is?t=3700)
 - [Atualizando o html da consulta](https://youtu.be/6a2ID5Ld6is?t=3795)
+- [Código](https://github.com/olucianonet/django101-saindo-do-zero/tree/2-2-criando-o-cadastro-create)
 
 ### 2.3. Criando a exclusão (DELETE)
 
 - [Criando a view de exclusão da tarefa](https://youtu.be/6a2ID5Ld6is?t=3937)
 - [Criando a url de exclusão da tarefa](https://youtu.be/6a2ID5Ld6is?t=3991)
 - [Atualizando o html da consulta](https://youtu.be/6a2ID5Ld6is?t=4046)
+- [Código](https://github.com/olucianonet/django101-saindo-do-zero/tree/2-3-criando-a-exclusao-delete)
 
 ### 2.4. Criando a atualização (UPDATE)
 
 - [Criando a view de atualização da tarefa](https://youtu.be/6a2ID5Ld6is?t=4101)
 - [Criando a url de atualização da tarefa](https://youtu.be/6a2ID5Ld6is?t=4219)
+- [Código](https://github.com/olucianonet/django101-saindo-do-zero/tree/2-4-criando-a-atualizacao-update)
 
 ## 3. Finalizando
 
