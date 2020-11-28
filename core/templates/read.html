@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do List</title>
+</head>
+<body style="font-family: Arial, sans-serif">
+    <h1>Lista de Tarefas</h1>
+    {% if objects %}
+        <ul>
+        {% for object in objects %}
+            <li>{{ object.id }} - {{ object.title }}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>Sem tarefas para exibir</p>
+    {% endif %}
+</body>
+</html>
